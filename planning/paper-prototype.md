@@ -1,1 +1,3 @@
-##Paper Prototype ![paper-prototype](images/galalprototype.png)
+## Paper Prototype
+
+![paper-prototype](images/galalprototype.png)
