@@ -1,3 +1,4 @@
 # Paper Prototype
 
-![paper-prototype](images/galalprototype.png)
+![paper-prototype](./images/paper-prototype.png)
+[paper process](./images/paper-process.jpeg)
