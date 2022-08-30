@@ -1,11 +1,12 @@
 /* general style */
+
 body {
   background-color: white;
 }
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a,
@@ -93,27 +94,36 @@ video {
   border: 0;
   border-top-color: initial;
   border-top-style: initial;
+
   /* border-top-width: 0px; */
+
   border-right-color: initial;
   border-right-style: initial;
+
   /* border-right-width: 0px; */
+
   border-bottom-color: initial;
   border-bottom-style: initial;
+
   /* border-bottom-width: 0px; */
+
   border-left-color: initial;
   border-left-style: initial;
+
   /* border-left-width: 0px; */
+
   border-image-source: initial;
   border-image-slice: initial;
   border-image-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
   font-size: 100%;
   font-style: normal;
   margin: 0;
+
   /* margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -123,18 +133,20 @@ video {
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px; */
+
   text-decoration: none;
   -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   text-decoration-thickness: initial;
   -webkit-text-decoration-style: initial;
-          text-decoration-style: initial;
+  text-decoration-style: initial;
   -webkit-text-decoration-color: initial;
-          text-decoration-color: initial;
+  text-decoration-color: initial;
   vertical-align: baseline;
 }
 
 /* text css */
+
 svg:not(:root).svg-inline--fa {
   overflow: visible;
 }
@@ -475,6 +487,7 @@ svg:not(:root).svg-inline--fa {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -486,6 +499,7 @@ svg:not(:root).svg-inline--fa {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -631,7 +645,7 @@ svg:not(:root).svg-inline--fa {
   height: 150px;
   min-height: 150px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 20px;
   background-color: #f7f7f7;
 }
@@ -639,23 +653,23 @@ svg:not(:root).svg-inline--fa {
 .container-header {
   -webkit-box-align: center;
   -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-flex: 0;
   height: 100%;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-      justify-content: flex-start;
+  justify-content: flex-start;
   max-height: none;
   max-width: 1280px;
   width: 100%;
@@ -663,7 +677,7 @@ svg:not(:root).svg-inline--fa {
   position: static;
   background: none 0% 0% / auto transparent;
   -ms-flex: 0 1 100%;
-      flex: 0 1 100%;
+  flex: 0 1 100%;
   margin: auto;
 }
 
@@ -673,10 +687,10 @@ svg:not(:root).svg-inline--fa {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   height: 100%;
 }
 
@@ -688,7 +702,7 @@ svg:not(:root).svg-inline--fa {
   width: auto;
   height: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 /* nav bar */
@@ -698,17 +712,17 @@ svg:not(:root).svg-inline--fa {
   display: flex;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-      justify-content: flex-end;
+  justify-content: flex-end;
   -webkit-box-align: center;
   -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
-      flex-grow: 1;
+  flex-grow: 1;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .landing-nav ul {
@@ -717,7 +731,7 @@ svg:not(:root).svg-inline--fa {
   display: inline-flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   height: 100%;
   color: #7f7f7f;
   font-size: 12px;
@@ -736,8 +750,8 @@ svg:not(:root).svg-inline--fa {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 100%;
   width: auto;
   padding: 15px;
@@ -750,8 +764,8 @@ svg:not(:root).svg-inline--fa {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 100%;
   width: auto;
   padding: 15px;
@@ -759,20 +773,20 @@ svg:not(:root).svg-inline--fa {
   font-size: 2em;
   border-radius: 21px;
   -webkit-animation: pulsate 5s ease-in-out;
-          animation: pulsate 5s ease-in-out;
+  animation: pulsate 5s ease-in-out;
 }
 
 @-webkit-keyframes pulsate {
   0% {
     -webkit-box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
-            box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
   }
 }
 
 @keyframes pulsate {
   0% {
     -webkit-box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
-            box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
   }
 }
 /*# sourceMappingURL=style.css.map */
