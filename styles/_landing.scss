@@ -145,20 +145,23 @@
 
     .name-landing {
       font-size: 3rem;
-      margin: 1.5rem 0rem;
+      margin: 1.5rem 0;
       text-align: center;
+
       span {
         color: var(--color-secondary);
       }
     }
+
     p {
-      margin: 1.5rem 0rem;
+      margin: 1.5rem 0;
       line-height: 2rem;
       display: flex;
       padding: 20px;
       box-sizing: border-box;
     }
   }
+
   .image-landing {
     display: flex;
     align-items: center;
@@ -180,10 +183,9 @@
       border-radius: var(--br-sm-2);
       height: 100%;
       width: 100%;
-      margin-left: 0rem;
-
-      /* background-color: var(--color-black);*/
+      margin-left: 0;
       transition: all 0.4s ease-in-out;
+
       img {
         border-radius: 21px;
         width: 100%;
@@ -191,6 +193,7 @@
         object-fit: cover;
         transition: all 0.4s ease-in-out;
         filter: grayscale(100%);
+
         &:hover {
           filter: grayscale(0);
         }
@@ -210,6 +213,7 @@
     display: grid;
     font-size: 0.8rem;
   }
+
   .section-landing {
     padding: 0 !important;
   }
@@ -224,17 +228,19 @@
       display: none;
     }
   }
+
   .text-landing {
     grid-row: 0;
-    padding-right: 0rem !important;
+    padding-right: 0 !important;
     width: 100%;
     margin: 0 auto;
 
     .name {
       font-size: 1.2rem !important;
-      padding-top: 0rem;
+      padding-top: 0;
     }
   }
+
   .container-landing .image-landing .image {
     margin: 0 auto;
     width: 100%;

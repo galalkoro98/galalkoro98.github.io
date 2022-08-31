@@ -93,21 +93,12 @@ video {
   border: 0;
   border-top-color: initial;
   border-top-style: initial;
-
-  /* border-top-width: 0px; */
-
   border-right-color: initial;
   border-right-style: initial;
-
-  /* border-right-width: 0px; */
   border-bottom-color: initial;
   border-bottom-style: initial;
-
-  /* border-bottom-width: 0px; */
   border-left-color: initial;
   border-left-style: initial;
-
-  /* border-left-width: 0px; */
   border-image-source: initial;
   border-image-slice: initial;
   border-image-width: initial;
@@ -118,17 +109,6 @@ video {
   font-size: 100%;
   font-style: normal;
   margin: 0;
-
-  /* margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding: 0;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px; */
-
   text-decoration: none;
   text-decoration-line: none;
   text-decoration-thickness: initial;
@@ -657,46 +637,6 @@ svg:not(:root).svg-inline--fa {
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
 }
-
-/*
-body {
-  background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
-  font-size: 1.1rem;
-  color: var(--color-white);
-  transition: all 0.4s ease-in-out;
-}
-
-
-a {
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-  font-family: inherit;
-}
-
-
-header {
-  min-height: 100vh;
-  color: var(--color-white);
-  overflow: hidden;
-}
-
-
-section {
-  min-height: 100vh;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 3rem 18rem;
-}
-
-.section {
-  transform: translateY(-100%) scale(0);
-  transition: all 0.4s ease-in-out;
-  background-color: var(--color-primary);
-}*/
 
 .sec0 {
   display: none;
