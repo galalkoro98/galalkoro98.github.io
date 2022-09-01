@@ -9,6 +9,7 @@
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --config ./.markdownlint.jsonc ./ ",
     "lint:css": "stylelint './**/*.css'",
+    "lint:scss": "stylelint './**/*.scss'",
     "validate:html": "html-validate ./",
     "accessibility": "achecker"
   },
