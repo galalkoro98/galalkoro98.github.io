@@ -611,7 +611,7 @@ svg:not(:root).svg-inline--fa {
 :root {
   --color-primary: #191d2b;
   --color-secondary: #27ae60;
-  --color-white: #ffffff;
+  --color-white: #fff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -625,7 +625,7 @@ svg:not(:root).svg-inline--fa {
 }
 
 .light-mode {
-  --color-primary: #ffffff;
+  --color-primary: #fff;
   --color-secondary: #f56692;
   --color-white: #454e56;
   --color-black: #000;
@@ -642,6 +642,7 @@ svg:not(:root).svg-inline--fa {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
@@ -657,6 +658,7 @@ svg:not(:root).svg-inline--fa {
   display: none;
   transform: translateY(0) scale(1);
 }
+
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
@@ -669,8 +671,8 @@ svg:not(:root).svg-inline--fa {
 
 .active {
   display: block;
-  animation: scaleAnim 1s ease-in-out;
-  @keyframes scaleAnim {
+  animation: scaleanim 1s ease-in-out;
+  @keyframes scaleanim {
     0% {
       transform: translateY(-100%) scaleY(0);
     }
@@ -695,9 +697,11 @@ svg:not(:root).svg-inline--fa {
   align-items: center;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.1s ease-in-out;
+
   &:active {
     transform: translateY(-3px);
   }
+
   i {
     font-size: 1.4rem;
     color: var(--color-grey-2);
