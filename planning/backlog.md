@@ -19,14 +19,15 @@ create your own!
 
 > these will complete the user experience, but are not necessary
 
-- [ ] As a user I want see image on center right:
-- there also button on image.
+- [ ] As a user I want see image on right side of page:
+- there is title left side of image.
+- there a paragraph under the title
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] As a user I want social media links center left.
+- [ ] As a user I want see a triangle shape on image right side.
 
 ## home-page
 
@@ -34,9 +35,9 @@ create your own!
 
 > these are necessary for basic usability
 
-- [ ] As a user I want to `nav-ber` on top right of page to navigate to another
-      pages:
-- There is a logo top left.
+- [ ] As a user I want to see `nav-ber` on top right of page to navigate to
+      another pages:
+- There is a logo top left which has landing page.
 
 ### Should-Have
 
@@ -49,3 +50,30 @@ create your own!
 
 - [ ] As a user I want see image left center of page
 - There is button under the paragraph
+
+## About-page
+
+### Must-Have
+
+> these are necessary for basic usability
+
+- [ ] As a user I want to `nav-ber` on top right of page to navigate to another
+      pages:
+- There is a logo top left which can navigate to landing page.
+
+### Should-Have
+
+> these are necessary for basic usability
+
+- [ ] As a user I want to see title introduction left side of page
+- There is a introduction paragraph under the title
+- There is a four cards right side of introduction paragraph which contain
+  number as a title and text
+- [ ] As a user I want see button under paragraph
+
+### Could-Have
+
+> these are necessary for basic usability
+
+- [ ] As a user I want see title skill on the center of the page
+- there is 6 progress bar Which has knowledge of programming languages.

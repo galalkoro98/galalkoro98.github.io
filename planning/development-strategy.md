@@ -45,10 +45,10 @@
 
 > As a user I want...
 
-- Image, button and social media link in `HTML`
+- Image, paragraph and bold text as title `HTML`
 - Style HTML elements `_landing.scss`
 
-- This user story is developed on branch `landing-page`.
+- This user story is developed on branch `landing`.
 - This branch is merged to `master` branch after completion.
 
 ## 4. Home
@@ -57,6 +57,14 @@
 
 - Image, header, paragraph and button in `HTML`
 - Style HTML elements in `_home.scss`
+- This user story is developed on branch `home`.
+- This branch is merged to `master` branch after completion.
 
-- This user story is developed on branch `home-page`.
+## 5. About
+
+> As a user I want ...
+
+- paragraph, 4 text cards with number title, button and 6 progressing bars
+- style HTML elements `_about.scss`
+- This user story is developed on branch `home`.
 - This branch is merged to `master` branch after completion.
