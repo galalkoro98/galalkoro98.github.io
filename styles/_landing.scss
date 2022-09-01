@@ -79,7 +79,7 @@
 @media screen and (max-width: 991px) {
   .container-landing-header {
     grid-row: 0 !important;
-    display: grid;
+    display: grid !important;
   }
 
   .landing-nav li {
