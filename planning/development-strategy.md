@@ -66,5 +66,5 @@
 
 - paragraph, 4 text cards with number title, button and 6 progressing bars
 - style HTML elements `_about.scss`
-- This user story is developed on branch `home`.
+- This user story is developed on branch `about`.
 - This branch is merged to `master` branch after completion.
