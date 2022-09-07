@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "words": [],
+  "words": ["KORO"],
   "ignorePaths": [
     "node_modules/**",
     "package.json",

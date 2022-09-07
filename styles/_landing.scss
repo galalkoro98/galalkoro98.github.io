@@ -1,78 +1,202 @@
 /* landing */
+
 .section-landing {
   width: 100%;
-  height: 100%;
+  height: 70vh;
+  padding-top: 0.6rem;
 }
 
 .container-landing {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  min-height: 60vh;
-  background-color: #f7f7f7;
+  min-height: 50vh;
+  background-color: #fcf6f6;
+}
 
-  .text-landing {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 1rem;
+.text-landing {
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 
-    .name-landing {
-      font-size: 3rem;
-      margin: 1.5rem 0;
-      text-align: center;
+.text-landing-paragraph {
+  margin: 1.5rem 0;
+  line-height: 2rem;
+  display: flex;
+  padding: 1px;
+  box-sizing: border-box;
+}
 
-      span {
-        color: var(--color-secondary);
-      }
-    }
+.name-landing {
+  font-size: 3rem;
+  margin: 1.1rem 0;
+}
 
-    p {
-      margin: 1.5rem 0;
-      line-height: 2rem;
-      display: flex;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-  }
+.name-landing-span {
+  color: var(--color-secondary);
+}
 
-  .image-landing {
-    display: flex;
-    align-items: center;
-    position: relative;
+.image-landing {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
 
-    .h-shape {
-      transition: all 0.4s ease-in-out;
-      width: 100%;
-      height: 100%;
-      background-color: rgb(20, 190, 77);
-      position: absolute;
-      right: -90px;
-      bottom: 0;
-      z-index: 1;
-      clip-path: polygon(75% 0%, 76% 0%, 79% 100%, 45% 40%);
-    }
+.image-landing-image {
+  border-radius: var(--br-sm-2);
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+  transition: all 0.4s ease-in-out;
+}
 
-    .image {
-      border-radius: var(--br-sm-2);
-      height: 100%;
-      width: 90%;
-      margin-left: 0;
-      transition: all 0.4s ease-in-out;
+.image-1 {
+  border-radius: 21px;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
 
-      img {
-        border-radius: 21px;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: all 0.4s ease-in-out;
-        filter: grayscale(100%);
+.image-1:hover {
+  filter: grayscale(4);
+}
 
-        &:hover {
-          filter: grayscale(0);
-        }
-      }
-    }
-  }
+/* web development */
+
+.development {
+  width: 100%;
+}
+
+.container-development {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 65vh;
+  background-color: #f1f1f1;
+}
+
+.container-development-image {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.development-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 21px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: auto;
+  height: auto;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.flip-card-back h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  padding: 3rem;
+}
+
+.text-flip-card-back {
+  font-weight: 400;
+  word-spacing: 5px;
+  border: 1px solid black;
+  border-radius: 21px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container-development .container-text-development {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 3rem;
+  padding-right: 9rem;
+}
+
+.container-text-development h1 {
+  font-size: 3.1rem;
+  line-height: 3rem;
+}
+
+.container-development .container-text-development p {
+  margin: 1.5rem 0;
+}
+
+.btn-more {
+  display: flex;
+  align-self: flex-start;
+}
+
+.link-more {
+  border-radius: 30px;
+  border: 1px solid green;
+  font-weight: 600;
+  position: relative;
+  align-self: flex-start;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: green;
+  height: 6vh;
+  width: 12vw;
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
@@ -96,12 +220,6 @@
     padding-bottom: 1rem;
   }
 
-  .image-landing {
-    .h-shape {
-      display: none;
-    }
-  }
-
   .text-landing {
     grid-row: 0;
     padding-right: 0 !important;
@@ -114,8 +232,79 @@
     }
   }
 
-  .container-landing .image-landing .image {
+  .image-1 {
     margin: 0 auto;
     width: 100%;
+    height: 50vh !important;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .landing-nav-development li a {
+    font-size: 0.8rem;
+  }
+
+  .showcase-container {
+    width: fit-content;
+    height: 100vh !important;
+  }
+
+  .development {
+    display: grid !important;
+    grid-row: 0 !important;
+  }
+
+  .development-image {
+    height: 50vh;
+    padding-top: 100px;
+  }
+
+  .container-development {
+    grid-template-columns: repeat(1, 2fr);
+    padding-bottom: 1rem;
+  }
+
+  .btn-more {
+    width: 60%;
+  }
+
+  .link-more {
+    font-size: 0.9rem;
+    width: 150%;
+    text-align: center;
+    border-radius: 21px;
+    background-color: blue;
+  }
+
+  .flip-card-front {
+    margin-top: 4em;
+  }
+
+  .flip-card-back {
+    margin-top: 4em;
+    height: 50vh;
+  }
+
+  .flip-card-back p {
+    padding-right: 20px;
+  }
+
+  .flip-card-back h1 {
+    margin-top: 40px;
+  }
+
+  .title-text-development {
+    font-size: 0.9rem !important;
+  }
+
+  .container-text-development {
+    margin-top: 15rem;
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 983px) {
+  .image-1 {
+    height: auto !important;
   }
 }
