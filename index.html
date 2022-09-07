@@ -24,32 +24,44 @@
   <body>
     <!--header-->
 
-    <header class="landing-header">
-      <div class="container-landing-header">
+    <header class="container-header">
+      <div class="container-header-element">
         <!--logo-->
-        <div class="container-landing-logo">
+        <div class="container-logo">
           <a href="./index.html">
             <img class="logo-img" src="./images/logo.png" alt="logo" />
           </a>
         </div>
+
         <!--nav bar-->
-        <nav class="landing-nav">
+        <nav class="container-nav">
           <ul>
-            <li><a href="./pages/home.html">home</a></li>
-            <li><a href="./pages/about.html">about</a></li>
-            <li><a href="./pages/work.html">work</a></li>
-            <li><a href="./pages/contact.html">contact</a></li>
+            <li><a href="../pages/home.html">home</a></li>
+            <li><a href="../pages/about.html">about</a></li>
+            <li><a href="../pages/services.html">services</a></li>
+            <li><a href="../pages/contact.html">contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <!--showcase-->
+    <div class="showcase">
+      <div class="showcase-container">
+        <h1>Hi! <span>Welcome</span></h1>
+        <h2>To my website</h2>
+      </div>
+    </div>
+
     <!--landing-->
     <main class="cnt-main">
       <section class="section-landing">
         <div class="container-landing">
           <div class="text-landing">
-            <h1 class="name-landing">Hi, I'm <span>Galal!</span></h1>
-            <p>
+            <h1 class="name-landing">
+              Hi, I'm <span class="name-landing-span">Galal!</span>
+            </h1>
+            <p class="text-landing-paragraph">
               Willing to learn Open-minded, listens to the team about ideas and
               how to approach tasks. Leads can tell when a Junior is interested,
               a good junior who wants to learn will be asking all sorts of
@@ -62,9 +74,49 @@
             </p>
           </div>
           <div class="image-landing">
-            <div class="h-shape"></div>
-            <div class="image">
-              <img src="./images/landing.jpg" alt="landing image" />
+            <div class="image-landing-image">
+              <img
+                class="image-1"
+                src="./images/landing.jpg"
+                alt="landing image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- web development-->
+
+      <section class="development">
+        <div class="container-development">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="container-development-image flip-card-front">
+                <img
+                  class="development-image"
+                  src="../images/home.jpg"
+                  alt="development image"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h1>Galal challenges</h1>
+                <p class="text-flip-card-back">
+                  A successful website does three things: It attracts the right
+                  kinds of visitors. Guides them to the main services or product
+                  you offer. Collect Contact details for future ongoing relation
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-text-development">
+            <h1 class="title-text-development">Web Development challenges</h1>
+            <p>
+              Learning HTML and CSS is a lot more challenging than it used to
+              be. Responsive web design adds more layers of complexity to design
+              and develop websites.
+            </p>
+            <div class="btn-more">
+              <a class="link-more" href="">explore more</a>
             </div>
           </div>
         </div>
